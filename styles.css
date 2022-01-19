@@ -108,3 +108,7 @@ body{
     height: 6rem;
     font-size: 1rem;
   }
+
+  .wrapper-btn{
+    margin-top: -1rem;
+  }
