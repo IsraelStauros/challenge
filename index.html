@@ -29,12 +29,12 @@
                     </div>
     
                     <div>
-                        <input class="text-input" placeholder="Insira aqui">
+                        <textarea class="text-input" name="input-texto" id="input" placeholder="Digite a frase"></textarea>
                     </div>
     
                     <div>
-                        <input class="btn" type="submit" value="Criptografar" id="btn-cripto">
-                        <input class="btn" type="submit" value="Descriptografar" id="btn-descripto">
+                        <button class="btn" id="btn-encrypt">Encode</button>
+                        <button class="btn" id="btn-decrypt">Decode</button>
                     </div>
                 </div>
             </div>
@@ -46,12 +46,12 @@
                 </div>
 
                 <div>
-                    <input class="text-input" type="text" id="msg"></input>
-      
+                   
+                    <textarea class="text-input" name="" id="output" placeholder="Digite sua mensagem."></textarea>
                 </div>
 
                 <div>
-                    <input class="btn" type="submit" value="Copiar Mensagem" id="btn-copy">
+                    <button class="btn" id="btn-copy">Copiar Mensagem</button>
                 </div>
             </div>
            </div>
@@ -62,10 +62,12 @@
     <footer>
           <section>
             <div class="footer">
-                <p>Desenvolvido por Israel Cruz | HTML, CSS e JS. </p>
+                <p> Encode & Decode | HTML, CSS e JS. </p>
            </div>
           </section>
     </footer>
+
+   
 
     <script src="main.js"></script>
 </body>
